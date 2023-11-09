@@ -1,0 +1,76 @@
+.bookingdatecontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    background-image: url(../Hotel/assets/Hotelbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: white;
+}
+.container .content .text{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.container .content .form2{
+    margin-top: 30px;
+    /* background: #dddddd; */
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid ;
+    border-color: #27dccd18;
+    /* padding-left: 20px; */
+}
+.container .content .form2 .txt{
+    font-size: 1.1em;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.container .content .form2 form input{
+    width: 100%;
+    /* height: 50px; */
+    margin: 10px 0;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+}
+.container .content .form2 form .book{
+    margin: 10px 0 0;
+}
+.container .content .form2 form .book button{
+    background: var(--bg);
+    color: var(--white);
+    font-weight: 500;
+    border: none;
+    font-size: 1em;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container.show{
+    display: block;
+}
+.container.hide{
+    display: none;
+}
+.bookbutton{
+    background-color: #27dccd !important;
+}
+.bookbutton:hover{
+    background-color: #c495fb !important;
+}

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Font1";
+  src: url("../../../fonts/ostrich-sans-inline-regular.woff") format("woff");
+  /* Add additional sources and formats as needed */
+}
+
+.HeroContainer {
+  background-image: url(../../../assets/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 40vh;
+  top: 10vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.HeroContainer::before {
+  content: "";
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  top: 0vh;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background: rgba(0, 0, 0, 0.5);
+}
+.herocontent {
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.herotext {
+  margin-bottom: 4vh;
+  /* font-family: "Font1";
+  font-size: 3.5rem; */
+}
+.explorenowbutton {
+  height: 6vh;
+  width: 10vw;
+  border: none;
+  border-radius: 4px;
+  background-color: #c495fb;
+  color: #000000;
+  transition: 1.2s ease-in-out;
+}
+.explorenowbutton:hover {
+  background-color: #ac214b;
+  color: white;
+  height: 7vh;
+  transition: 1.2s ease-in-out;
+}
+.userwelcome{
+  font-size: 0.8rem;
+}

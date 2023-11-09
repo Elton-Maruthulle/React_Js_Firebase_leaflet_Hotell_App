@@ -1,0 +1,62 @@
+
+.signupage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Hotel/assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signuppagecontainer{
+            background: rgba(0, 0, 0, 0.4); /* White with 30% opacity */
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            color: white;
+
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 15vw;
+    height: 3.5vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    border: none;
+    border-radius: 3px;
+}
+.signup-button{
+    background-color: #ac214b;
+    color: white;
+    width: 6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 3px;
+    transition: 1.5s ease-in-out;
+}
+.signup-button:hover{
+    background-color:#27dccd;
+    width: 6.5vw;
+    height: 6.5vh;
+    transition: 1.5s ease-in-out;
+}
+.LoginLink{
+    color: #27dccd;
+    background-color: #0000;
+    font-size: 1.1rem;
+}
