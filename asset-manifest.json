@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.b4f39b1a.css",
+    "main.js": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.e7b5afe6.js",
+    "static/media/Room (4).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (4).140d32d5e7a027d57ff6.jpg",
+    "static/media/hotelcleaner.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelcleaner.74125c2ab945b83e84ac.jpg",
+    "static/media/Room (10).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (10).01542930625262212ada.jpg",
+    "static/media/hotelparking.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelparking.d54568fc341304ced2a0.jpg",
+    "static/media/Room (9).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (9).cf53faccdfbb61bbebda.jpg",
+    "static/media/Room (5).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (5).3b6a6cf82ad2e67f7f37.jpg",
+    "static/media/hotelfood.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelfood.477f75fe7c4158abec7d.jpg",
+    "static/media/hero.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hero.1d9ca83af5d9b24b9730.jpg",
+    "static/media/Room (11).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (11).049a7374b57c6c7ff5c4.jpg",
+    "static/media/Room (1).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (1).f1af5dabea45bd1c435c.jpg",
+    "static/media/Room (7).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (7).68f711d0a92080e2a156.jpg",
+    "static/media/Room (6).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (6).06f1e6372a840921a51e.jpg",
+    "static/media/Room (8).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (8).6db50ca8182a89612f0a.jpg",
+    "static/media/Room (12).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (12).237f7711e2687921b6e1.jpg",
+    "static/media/hotelsecurity.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelsecurity.df2b61c8f716ed340b45.jpg",
+    "static/media/Room (2).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (2).4a132f194e0363bd1b04.jpg",
+    "static/media/Room (3).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (3).08ea675486cfc3df7de0.jpg",
+    "static/media/Hotelbackground.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Hotelbackground.2ba03a7089926a02b22e.jpg",
+    "static/media/Hotelbackground2.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Hotelbackground2.c3db127f516d65cfab1c.jpg",
+    "static/media/ostrich-sans-inline-regular.woff": "/React_Js_Firebase_leaflet_Hotell_App/static/media/ostrich-sans-inline-regular.5c9532bcc57fafc961ab.woff",
+    "static/media/ostrich-sans-bold.woff": "/React_Js_Firebase_leaflet_Hotell_App/static/media/ostrich-sans-bold.057917defa99e4893289.woff",
+    "index.html": "/React_Js_Firebase_leaflet_Hotell_App/index.html",
+    "main.b4f39b1a.css.map": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.b4f39b1a.css.map",
+    "main.e7b5afe6.js.map": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.e7b5afe6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4f39b1a.css",
+    "static/js/main.e7b5afe6.js"
+  ]
+}
