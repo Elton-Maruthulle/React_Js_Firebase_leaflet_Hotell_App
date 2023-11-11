@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.c03f73f8.css",
-    "main.js": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.4d714f93.js",
+    "main.css": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.bea32b05.css",
+    "main.js": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.03d4410e.js",
     "static/media/Room (4).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (4).140d32d5e7a027d57ff6.jpg",
     "static/media/hotelcleaner.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelcleaner.74125c2ab945b83e84ac.jpg",
     "static/media/Room (10).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (10).01542930625262212ada.jpg",
@@ -20,15 +20,14 @@
     "static/media/Room (2).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (2).4a132f194e0363bd1b04.jpg",
     "static/media/Room (3).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (3).08ea675486cfc3df7de0.jpg",
     "static/media/Hotelbackground.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Hotelbackground.2ba03a7089926a02b22e.jpg",
-    "static/media/Hotelbackground2.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Hotelbackground2.c3db127f516d65cfab1c.jpg",
     "static/media/ostrich-sans-inline-regular.woff": "/React_Js_Firebase_leaflet_Hotell_App/static/media/ostrich-sans-inline-regular.5c9532bcc57fafc961ab.woff",
     "static/media/ostrich-sans-bold.woff": "/React_Js_Firebase_leaflet_Hotell_App/static/media/ostrich-sans-bold.057917defa99e4893289.woff",
     "index.html": "/React_Js_Firebase_leaflet_Hotell_App/index.html",
-    "main.c03f73f8.css.map": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.c03f73f8.css.map",
-    "main.4d714f93.js.map": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.4d714f93.js.map"
+    "main.bea32b05.css.map": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.bea32b05.css.map",
+    "main.03d4410e.js.map": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.03d4410e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c03f73f8.css",
-    "static/js/main.4d714f93.js"
+    "static/css/main.bea32b05.css",
+    "static/js/main.03d4410e.js"
   ]
 }
