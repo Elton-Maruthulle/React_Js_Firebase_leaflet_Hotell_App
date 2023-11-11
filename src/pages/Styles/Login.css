@@ -1,6 +1,6 @@
  .LoginPage{
     width:100vw;
-    height:100vh;
+    height:110vh;
     background-image: url(../Hotel/assets/Hotelbackground.jpg);
     background-size: cover;
     background-position: center;
@@ -8,7 +8,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-left: -0.55vw;
+    margin-top: -2vh;
  }
  .LoginPageContent{
     background: rgba(0, 0, 0, 0.4); /* White with 30% opacity */

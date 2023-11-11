@@ -18,7 +18,7 @@ function About
     <Navbar />
     <div className='containeraboutabout'>
     <div className="scroll-down-arrow" onClick={handleScroll}>
-          <div className="arrow"></div>
+          <div className="arrow"><div className="titletille">scroll</div></div>
   </div>
     <div className='aboutcontainer'>
         <h2>About StayEase</h2>

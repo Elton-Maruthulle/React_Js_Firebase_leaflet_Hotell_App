@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 import "./styles/NavbarComponents.css";
-import { signOut } from 'firebase/auth';
+import { signOut } from "firebase/auth";
 
-import { auth } from '../../../../firebase';
-import { useNavigate } from 'react-router-dom';
-
+import { auth } from "../../../../firebase";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function DropdownButton() {
-
-  const user = JSON.parse(localStorage.getItem('user'));
+  const user = JSON.parse(localStorage.getItem("user"));
   const navigate = useNavigate();
 
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      localStorage.removeItem('token');
-      localStorage.removeItem('user');
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
       navigate("/login");
     } catch (error) {
       console.error(error);
     }
-  }
+  };
 
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
@@ -31,23 +30,25 @@ function DropdownButton() {
   return (
     <div className="navfixed">
       <div className="navbarcontainer">
-        <div className="logo">StayEase</div>
+        <div className="logo">
+        <Link to="/" >
+        StayEase</Link></div>
         <div className="navbarcomponents">
           <div className="navbarlinks">
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <Link to="/" class="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/booking">
+              <Link to="/booking" class="nav-link">
                 Rooms
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/booking">
+              <Link to="/booking" class="nav-link">
                 Reservations
-              </a>
+              </Link>
             </li>
           </div>
           <div className="dropdown-button">
@@ -59,15 +60,17 @@ function DropdownButton() {
             </button>
             {isDropdownOpen && (
               <div className="dropdown-content">
-                <a href="booking">BOOK NOW</a>
-                <a href="aboutpage">About Us</a>
-                <a href="contactpage">Contact</a>
-                <a href="Mappage">Location</a>
+                <Link to="/booking">BOOK NOW</Link>
+                <a href="http://Elton-Maruthulle.github.io/My_Portfolio" target="_blank">About Us</a>
+                <Link to="/contactpage">Contact</Link>
+                <Link to="/Mappage">Location</Link>
               </div>
             )}
           </div>
           <div className="signupbutton">
-            <button className="signupbuttonbutton" onClick={handleLogout}>Logout</button>
+            <button className="signupbuttonbutton" onClick={handleLogout}>
+              Logout
+            </button>
           </div>
         </div>
       </div>

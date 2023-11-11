@@ -26,7 +26,7 @@ const router = createBrowserRouter(
       </Route>
     </Route>
   ),
-  { basename: '/React_Js_Firebase_leaflet_Hotel_App' }
+  { basename: '/React_Js_Firebase_leaflet_Hotell_App' }
 );
 
 const root = createRoot(document.getElementById('root'));

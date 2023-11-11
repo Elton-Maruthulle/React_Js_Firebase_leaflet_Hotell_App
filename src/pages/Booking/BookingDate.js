@@ -43,7 +43,7 @@ const Home = () => {
             leave_time: leave_time.value,
             });
         }
-            alert('Your booking has been made');
+            alert('Your booking has been made, click okay and wait a bit to proceed');
             const BookPageDiv = document.querySelector('.box');
             const container = document.querySelector('.container');
             setvalid(!valid + BookPageDiv.classList.add("show"));

@@ -8,26 +8,29 @@
     
     
     width: 100%;
-   
+    color: white;
     max-width: 500px;
     padding: 30px 30px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(225, 0, 0, 0.5);
     margin-left: 35vw;
+    margin-top: 10vh;
      
 }
 .box{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10vh;
-    background-image: url(../Hotel/assets/Hotelbackground2.jpg);
+    background-image: url(../Hotel/assets/Hotelbackground.jpg);
     background-size: cover;
     background-position: center;
+    margin-left: -0.55vw;
+    margin-top: 10vh;
     
     
 }
