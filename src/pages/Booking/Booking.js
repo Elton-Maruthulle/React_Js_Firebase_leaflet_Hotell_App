@@ -147,6 +147,7 @@ const Book = () => {
             });
         }
     }
+
     const bookRoom3 = (event) => {
         console.log(event);
         const imageTarget = document.querySelector("#targetImage");
@@ -192,6 +193,205 @@ const Book = () => {
             RoomImage: Rooms[3].image,
             RoomName: Rooms[3].name,
             RoomPrice: 'R' + Rooms[3].price,
+            });
+        }
+    }
+    const bookRoom5 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[4].image;
+        nameTarget.innerHTML = Rooms[4].name;
+        priceTarget.innerHTML = 'R' + Rooms[4].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[4].image,
+            RoomName: Rooms[4].name,
+            RoomPrice: 'R' + Rooms[4].price,
+            });
+        }
+    }
+
+    const bookRoom6 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[5].image;
+        nameTarget.innerHTML = Rooms[5].name;
+        priceTarget.innerHTML = 'R' + Rooms[5].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[5].image,
+            RoomName: Rooms[5].name,
+            RoomPrice: 'R' + Rooms[5].price,
+            });
+        }
+    }
+
+    const bookRoom7 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[6].image;
+        nameTarget.innerHTML = Rooms[6].name;
+        priceTarget.innerHTML = 'R' + Rooms[6].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[6].image,
+            RoomName: Rooms[6].name,
+            RoomPrice: 'R' + Rooms[6].price,
+            });
+        }
+    }
+
+    const bookRoom8 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[7].image;
+        nameTarget.innerHTML = Rooms[7].name;
+        priceTarget.innerHTML = 'R' + Rooms[7].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[7].image,
+            RoomName: Rooms[7].name,
+            RoomPrice: 'R' + Rooms[7].price,
+            });
+        }
+    }
+
+    const bookRoom9 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[8].image;
+        nameTarget.innerHTML = Rooms[8].name;
+        priceTarget.innerHTML = 'R' + Rooms[8].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[8].image,
+            RoomName: Rooms[8].name,
+            RoomPrice: 'R' + Rooms[8].price,
+            });
+        }
+    }
+
+    const bookRoom10 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[9].image;
+        nameTarget.innerHTML = Rooms[9].name;
+        priceTarget.innerHTML = 'R' + Rooms[9].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[9].image,
+            RoomName: Rooms[9].name,
+            RoomPrice: 'R' + Rooms[9].price,
+            });
+        }
+    }
+
+    const bookRoom11 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[10].image;
+        nameTarget.innerHTML = Rooms[10].name;
+        priceTarget.innerHTML = 'R' + Rooms[10].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[10].image,
+            RoomName: Rooms[10].name,
+            RoomPrice: 'R' + Rooms[10].price,
+            });
+        }
+    }
+
+    const bookRoom12 = (event) => {
+        console.log(event);
+        const imageTarget = document.querySelector("#targetImage");
+        const nameTarget = document.querySelector("#targetName");
+        const priceTarget = document.querySelector("#targetPrice");
+        const cards = document.querySelector(".cards_box");
+        const request = document.querySelector(".request");
+
+        imageTarget.src = Rooms[11].image;
+        nameTarget.innerHTML = Rooms[11].name;
+        priceTarget.innerHTML = 'R' + Rooms[11].price;
+        cards.style.display = "none";
+        request.style.display = "block";
+
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            RoomImage: Rooms[11].image,
+            RoomName: Rooms[11].name,
+            RoomPrice: 'R' + Rooms[11].price,
             });
         }
     }
@@ -252,49 +452,49 @@ const Book = () => {
                             <div className="price">{'R' + Rooms[3].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom5}>
                             <img src={Rooms[4].image} alt="Room4" />
                             <div className="Room_name">{Rooms[4].name}</div>
                             <div className="price">{'R' + Rooms[4].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom6}>
                             <img src={Rooms[5].image} alt="Room4" />
                             <div className="Room_name">{Rooms[5].name}</div>
                             <div className="price">{'R' + Rooms[5].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom7}>
                             <img src={Rooms[6].image} alt="Room4" />
                             <div className="Room_name">{Rooms[6].name}</div>
                             <div className="price">{'R' + Rooms[6].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom8}>
                             <img src={Rooms[7].image} alt="Room4" />
                             <div className="Room_name">{Rooms[7].name}</div>
                             <div className="price">{'R' + Rooms[7].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom9}>
                             <img src={Rooms[8].image} alt="Room4" />
                             <div className="Room_name">{Rooms[8].name}</div>
                             <div className="price">{'R' + Rooms[8].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom10}>
                             <img src={Rooms[9].image} alt="Room4" />
                             <div className="Room_name">{Rooms[9].name}</div>
                             <div className="price">{'R' + Rooms[9].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom11}>
                             <img src={Rooms[10].image} alt="Room4" />
                             <div className="Room_name">{Rooms[10].name}</div>
                             <div className="price">{'R' + Rooms[10].price}</div>
                         </div>
                         {/*  */}
-                        <div className="card" onClick={bookRoom4}>
+                        <div className="card" onClick={bookRoom12}>
                             <img src={Rooms[11].image} alt="Room4" />
                             <div className="Room_name">{Rooms[11].name}</div>
                             <div className="price">{'R' + Rooms[11].price}</div>
