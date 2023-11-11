@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.bea32b05.css",
-    "main.js": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.03d4410e.js",
+    "main.js": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.ac61e7f9.js",
     "static/media/Room (4).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (4).140d32d5e7a027d57ff6.jpg",
     "static/media/hotelcleaner.jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/hotelcleaner.74125c2ab945b83e84ac.jpg",
     "static/media/Room (10).jpg": "/React_Js_Firebase_leaflet_Hotell_App/static/media/Room (10).01542930625262212ada.jpg",
@@ -24,10 +24,10 @@
     "static/media/ostrich-sans-bold.woff": "/React_Js_Firebase_leaflet_Hotell_App/static/media/ostrich-sans-bold.057917defa99e4893289.woff",
     "index.html": "/React_Js_Firebase_leaflet_Hotell_App/index.html",
     "main.bea32b05.css.map": "/React_Js_Firebase_leaflet_Hotell_App/static/css/main.bea32b05.css.map",
-    "main.03d4410e.js.map": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.03d4410e.js.map"
+    "main.ac61e7f9.js.map": "/React_Js_Firebase_leaflet_Hotell_App/static/js/main.ac61e7f9.js.map"
   },
   "entrypoints": [
     "static/css/main.bea32b05.css",
-    "static/js/main.03d4410e.js"
+    "static/js/main.ac61e7f9.js"
   ]
 }
