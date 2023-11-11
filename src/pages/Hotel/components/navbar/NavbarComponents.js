@@ -61,8 +61,8 @@ function DropdownButton() {
             {isDropdownOpen && (
               <div className="dropdown-content">
                 <Link to="/booking">BOOK NOW</Link>
-                <a href="http://Elton-Maruthulle.github.io/My_Portfolio" target="_blank">About Us</a>
-                <Link to="/contactpage">Contact</Link>
+                <Link to="/aboutpage">About Us</Link> 
+                <a href="http://Elton-Maruthulle.github.io/My_Portfolio" target="_blank">Contact</a>
                 <Link to="/Mappage">Location</Link>
               </div>
             )}
